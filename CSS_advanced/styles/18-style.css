@@ -118,7 +118,8 @@ h1, h2, h3, h4, h5, h6 {
   --nav-item-margin: 3rem 0 0;
   --nav-item-link-hover: var(--color-primary);
 }
-  .nav-item {
+
+.nav.nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -127,13 +128,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: var(--nav-item-margin);
   }
 
-  .nav_link {
+.nav.nav_link {
     display: block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 
-  .nav_link:hover {
+.nav.nav_link:hover {
     color: var(--nav-item-link-hover);
   }
 
