@@ -159,7 +159,7 @@ ul.row {
 }
 .row::after {
   content: ""; /* empty */
-  display: block;
+  display: table;
   clear: both;
 }
 
